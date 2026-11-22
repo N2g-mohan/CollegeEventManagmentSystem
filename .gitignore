@@ -1,0 +1,58 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor files
+.idea/
+.vscode/*
+!.vscode/settings.json
+*.iml
+*.sublime-workspace
+*.code-workspace
+
+# Java and Maven build output
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.mvn/
+*.class
+*.jar
+*.war
+*.log
+
+# React and Vite build files
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+*.tsbuildinfo
+
+# Environment and secret files
+.env
+.env.*
+*.local
+application-local.properties
+
+# Package manager and runtime files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+
+# Test and coverage output
+coverage/
+backend/coverage/
+frontend/coverage/
+*.cover
+.nyc_output/
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
